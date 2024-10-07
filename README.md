@@ -6,4 +6,3 @@ Barebone scripts for communicating with the lab tools and doing different tests:
 - voltage_sweep_DC.py : Sweeping the gpp output and reading the result with the gdm.
 - set_votlage_AC.py : setting a sine wave at the output of the function generator (mfg) and reading the amplitude and frequency with the oscilloscope (mdo)
 - read_phase_AC : setting the same sine wave at both mfg otuputs and reading the frequency, amplitude and phase difference with the mdo.
-- 
