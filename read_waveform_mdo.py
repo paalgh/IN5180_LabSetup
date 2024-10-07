@@ -1,6 +1,8 @@
 #Setting a square wave at the function generator (mfg)
 #Read the output with the oscilloscope (mdo)
 
+#This script is not functional, do not use !!!!!!!!!!!!!!!!!!
+
 import pyvisa
 import argparse
 import time 
