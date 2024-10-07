@@ -8,3 +8,5 @@ Barebone scripts are used to communicate with the lab tools and do different tes
 - read_phase_AC : setting the same sine wave at both mfg otuputs and reading the frequency, amplitude and phase difference with the mdo.
 
 Some scripts still in development are in the folder scripts_in_process.
+
+All documents for the different instruments are found in the Documents folder
