@@ -1,6 +1,11 @@
 import pyvisa
 import time
 
+'''
+!!!!!!!!
+This script is not verified, use with caution!!!!!!!
+'''
+
 rm = pyvisa.ResourceManager()
 rm.list_resources()
 
@@ -19,7 +24,6 @@ mfg = exisiting_tool(1,"mfg",1026)
 
 mfg.write('source1:appl:sin 2KHZ,1,0')
 mfg.write('source2:appl:sin 4KHZ,1,0')
-
 
 # Frequency sweep operation:
 # 1. Enable sweep
