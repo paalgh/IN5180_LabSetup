@@ -15,4 +15,8 @@ This tutorial will help you get started with running python scripts on a virtual
 
 ## Running the scripts
 
-The basic syntax for running a python script on the VM is: *python script_name.py*. In the scripts provided there are a number of arguments that the different scripts take in, such as desk number (1 - 6) and other relevant information. The syntax for running the XXX.py script is:
+The basic syntax for running a python script on the VM is: *python script_name.py*. In the scripts provided, there are arguments that the different scripts take in, such as desk number (1 - 6) and other relevant information. Let us look at one example, the tool_check.py script. The arguments needed are:
+* slab_num
+* 
+The syntax for running the tool_check.py script is:
+*python tool_check.py --slab_num=1*
