@@ -18,7 +18,9 @@ This tutorial will help you get started with running python scripts on a virtual
 The basic syntax for running a python script on the VM is: *python script_name.py*. In the scripts provided, there are arguments that the different scripts take in, such as desk number (1 - 6) and other relevant information. To find out what the script does and what the different arguments are you can run *python script_name.py -h*. You will get a description of the functionality, the syntax for running the script and a description of the different arguments. Let us look at one example, the tool_check.py script. The arguments needed are:
 * slab_num (int)
 * tool (str)
+  
 The slab_num is the desk number you are working at (1 closest to the offices) and tool is one of the four lab instruments:
+
 * mdo = oscilloscope
 * gpp = DC power supply
 * gdm = multi-meter
@@ -27,4 +29,4 @@ The syntax for running the tool_check.py script for checking connectivity to the
 
 *python tool_check.py --slab_num=1 --tool="mdg"*
 
-
+The other scripts have more arguments but the syntax is the same. If you have any questions please feel free to contact Pål Gunnar by email (paalgh) or in office 5108.
