@@ -1,3 +1,7 @@
+'''
+This works, but there is no way to controll the DC offset of the internal AWG in the MDO during FRA. 
+'''
+
 import pyvisa
 import time
 
@@ -30,6 +34,5 @@ while(mdo.query('FRA:RUN?')=="RUN"):
     pass
     
 print(mdo.query('AWG1:offset?'))
-
 
 mdo.write('FRA:STOP')
