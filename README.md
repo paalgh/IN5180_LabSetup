@@ -43,3 +43,6 @@ The syntax for running the tool_check.py script for checking connectivity to the
 *python tool_check.py --slab_num=1 --tool="mdg"*
 
 The other scripts have more arguments but the syntax is the same. If you have any questions please feel free to contact Pål Gunnar by email (paalgh) or in office 5108.
+
+
+
