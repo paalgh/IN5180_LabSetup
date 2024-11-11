@@ -29,7 +29,7 @@ if (__name__ == "__main__"):
 
     #Check if tools are available:    
     dcpp = exisiting_tool(args.slab_num,"gpp",1026)
-    dmm  = exisiting_tool(args.slab_num,"gdm",1026)
+    dmm  = exisiting_tool(args.slab_num,"gdm",3001)
 
     #Set DC voltage for each of the two channels:
     dcpp.write('VSET1:'+str(args.voltage1)) #This works
