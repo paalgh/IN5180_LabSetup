@@ -31,7 +31,7 @@ if (__name__ == "__main__"):
 	
     #Check if tools are available:    
     dcpp = exisiting_tool(args.slab_num,"gpp",1026)
-    dmm  = exisiting_tool(args.slab_num,"gdm",1026)
+    dmm  = exisiting_tool(args.slab_num,"gdm",3001)
 
     #Setting up the instruments:
     dcpp.write('VSET'+str(args.output_port)+':'+str(args.voltage_min)) #This works
